@@ -33,3 +33,5 @@ time.sleep(2)
 # 点击学生仪表板图标
 student_dashboard = driver.find_element(By.XPATH, '//*[@id="main-container"]/app-student-dashboard/div/div[2]/div[1]/div[1]/img')
 student_dashboard.click()
+
+print('done')
